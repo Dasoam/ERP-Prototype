@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <!-- Heading and QR Code -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="fill">
+
+        <TextView
+            android:id="@+id/meal_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="Meal Heading" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end">
+
+            <ImageView
+                android:id="@+id/qr_icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_clubs" />
+
+            <TextView
+                android:id="@+id/meal_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="8dp"
+                android:text="12345678" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Meal Timing -->
+    <TextView
+        android:id="@+id/meal_timing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7:00 AM - 9:00 AM"
+        android:textColor="#888888"
+        android:paddingTop="4dp" />
+
+    <!-- Menu Items -->
+    <TextView
+        android:id="@+id/menu_items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:text="Item 1, Item 2, Item 3" />
+</LinearLayout>

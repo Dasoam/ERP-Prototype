@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_events_messages"
+        android:icon="@drawable/ic_events_messages"
+        android:title="Events/Messages" />
+    <item
+        android:id="@+id/navigation_clubs"
+        android:icon="@drawable/ic_clubs"
+        android:title="Clubs" />
+    <item
+        android:id="@+id/navigation_faculty"
+        android:icon="@drawable/ic_faculty"
+        android:title="Faculty" />
+    <item
+        android:id="@+id/navigation_mess"
+        android:icon="@drawable/ic_mess"
+        android:title="Mess" />
+</menu>
